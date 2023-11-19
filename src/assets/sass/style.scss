@@ -1,0 +1,13 @@
+
+@use 'reset-css';
+
+@use "./base/base";
+
+@use "./layout/header";
+@use "./layout/main";
+@use "./layout/footer";
+
+@use "./components/btn";
+@use "./components/card";
+@use "./components/segment";
+@use "./components/formulaire";

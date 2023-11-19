@@ -1,0 +1,27 @@
+@use "../utils/mixin";
+
+main {
+    // background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 98%;
+    min-width: 94%;
+    margin: 0 auto;
+
+}
+
+
+@include mixin.medium {
+    main{
+        width: 80%;
+        margin: 0 auto;
+    }  
+}
+
+@include mixin.big {
+    main{
+        width: 60%;
+        margin: 0 auto;
+    }    
+}

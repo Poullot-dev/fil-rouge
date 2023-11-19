@@ -1,0 +1,47 @@
+@use "../utils/vars";
+
+
+.segment__blocs {
+    padding: 1rem 1.5rem;
+}
+
+.segment__articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+.segment {
+    // background-color: aqua;
+
+    
+    &__h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-bottom: .5rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid vars.$color_grey;
+    }
+    
+    &__h2::first-letter {
+        text-transform: capitalize;
+    }
+
+    &__actions {
+        background-color: #F2F2F2;
+        margin: 1rem 0;
+        padding: 2rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+
+    &__desc__article{
+        text-align: justify;
+    }
+}
+

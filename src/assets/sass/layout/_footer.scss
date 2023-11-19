@@ -1,0 +1,26 @@
+
+@use "../utils/vars.scss";
+
+
+  .footer {
+    background-color: vars.$color_grey-dark;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+
+    .group__link {
+      display: flex;
+      column-gap: 1rem;
+
+      &__item {
+        color: vars.$color_white;
+        font-size: 1.3rem;
+
+        &:hover {
+          color: vars.$color_grey;
+        }
+      }
+    }
+  }

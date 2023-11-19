@@ -1,0 +1,22 @@
+{
+  "name": "fil-rouge",
+  "version": "1.0.0",
+  "description": "Recréation du projet fil rouge, avec ma structure de dossier pour le travail.# fil-rouge",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.2",
+    "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "feather-icons": "^4.29.1",
+    "reset-css": "^5.0.2"
+  }
+}

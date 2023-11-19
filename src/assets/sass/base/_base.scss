@@ -1,0 +1,32 @@
+
+@use "reset-css";
+@use "../utils/vars";
+@use "../utils/mixin";
+
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: vars.$color_background-white;
+    color: vars.$color_text-black;
+    line-height: 1.4;
+    font-family: Roboto, sans-serif;
+}
+
+input, select, button, textarea {
+    font: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+

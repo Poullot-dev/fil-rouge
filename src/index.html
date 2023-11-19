@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css  -->
+    <!-- <link rel="stylesheet" href="/path/to/reset-css/reset.css" /> -->
+    <link rel="stylesheet" href="./assets/sass/style.scss">
+
+    <!-- autre liens -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- script -->
+    <script src="./assets/js/global.js" type="module" defer></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- debut container site -->
+    <div class="container">
+
+     
+        <header>
+            <a class="logo" href="index.html">
+                <img class="logo__img" src="./assets/img/logo.svg" alt="Logo pilori representant un cercle rouge avec une barre à 12h rouge">
+            </a>
+            <nav class="menu">
+                <a class="menu__link" href="">Toutes les tomates</a>
+                <a class="menu__link" href="">Dénoncer</a>
+            </nav>
+            <div class="header__tools">
+                <!-- TODO voir Florian, je ne comprends pas son search  -->
+                <form action="#" class="search">
+                    <input type="search" name="search" id="search" placeholder="Rechercher">
+                    <button type="submit"><i data-feather="search"></i> </button>
+                </form>
+            </div>
+            <div class="account">
+                <a class="account__link account__link--mobile" href="#"><i data-feather="search"></i></a>
+                <a class="account__link" href="#"><i data-feather="user"></i></a>
+                <a class="account__link" href="#"><i data-feather="log-out"></i></a>
+            </div>
+        </header>
+        <main>
+
+            <div class="segment__blocs">
+
+                <section class="segment segment__desc">
+                    <h2 class="segment__h2">à vos tomates</h2>
+                    <p class="segment__desc__article">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Blanditiis, hic! Impedit doloribus id ratione? Corrupti illo blanditiis ullam. 
+                        Recusandae consequatur et eos laborum at rem explicabo qui vero debitis mollitia quod officia amet incidunt dolores perferendis, voluptate atque sint, alias itaque eius, ad odio in ipsam sequi. 
+                        Repellendus sunt eligendi nam amet similique enim, odio non tenetur cum ipsam pariatur laudantium officia assumenda sit architecto voluptates eaque illo. 
+                        Aperiam porro officiis saepe ducimus suscipit facere dicta dignissimos sunt enim consectetur amet, placeat sapiente nulla. 
+                        Possimus, deleniti laudantium ut, voluptates sed, recusandae alias laboriosam nam cum quo error labore inventore repellendus. 
+                        Libero neque nihil explicabo illo minima quo. Laboriosam, quod impedit blanditiis natus iusto aliquid, rem corporis inventore in id saepe culpa maxime? 
+                        Nesciunt inventore consectetur ab dolore ex fugiat quia hic explicabo sunt, omnis totam aliquid laborum accusantium nostrum, 
+                        asperiores nulla praesentium ipsam unde alias error autem dolorum! Illum, laborum.
+                    </p>
+                    <footer class="segment__actions">
+                        <a class="btn" href="#">Envoyer des tomates</a>
+                        <a class="btn" href="#">Commencer la dénonciation</a>
+                    </footer>
+                </section>
+
+                <section class="segment">
+                    <h2 class="segment__h2">les pires !</h2>
+                    <div class="segment__articles">
+                        <article class="card">
+                            <figure class="card__img">
+                                <img src="./assets/img-site/facebook.jpg" alt="site facebook">
+                                <div class="card__img__tags">
+                                    <span class="card__tag">Moche</span>
+                                    <span class="card__tag card__tag--counter"><i data-feather="circle" class="card__tag--ico"></i>523</span>
+                                </div>
+                            </figure>
+                            <h3 class="card__h3">facebook</h3>
+                            <p class="card__p">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut non delectus debitis nesciunt quas odio! Accusantium dolorem velit dignissimos ducimus quae officiis necessitatibus nostrum, quibusdam minima reprehenderit vero dolorum possimus nulla pariatur fuga voluptates! Nobis rerum aliquid quos sit consequatur laboriosam possimus sequi, dolor iste!
+                            </p>
+                            <a href="#" class="card__lien">lire la suite</a>
+                            <div class="card__footer">
+                                <a href="#" class="card__lien">consulter le site</a>
+                                <div>
+                                    <button class="ico ico--tomato"><i data-feather="circle"></i></button>        
+                                    <button class="ico"><i data-feather="check"></i></button>        
+                                    <button class="ico ico--share"><i data-feather="share"></i></button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <figure class="card__img">
+                                <img src="./assets/img-site/doctolib.jpg" alt="site facebook">
+                                <div class="card__img__tags">
+                                    <span class="card__tag">Moche</span>
+                                    <span class="card__tag card__tag--counter"><i data-feather="circle" class="card__tag--ico"></i>2875</span>
+                                </div>
+                            </figure>
+                            <h3 class="card__h3">Doctolib</h3>
+                            <p class="card__p">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut non delectus debitis nesciunt quas odio! Accusantium dolorem velit dignissimos ducimus quae officiis necessitatibus nostrum, quibusdam minima reprehenderit vero dolorum possimus nulla pariatur fuga voluptates! Nobis rerum aliquid quos sit consequatur laboriosam possimus sequi, dolor iste!
+                            </p>
+                            <a href="#" class="card__lien">lire la suite</a>
+                            <div class="card__footer">
+                                <a href="#" class="card__lien">consulter le site</a>
+                                <div>
+                                    <button class="ico ico--tomato"><i data-feather="circle"></i></button>        
+                                    <button class="ico"><i data-feather="check"></i></button>        
+                                    <button class="ico ico--share"><i data-feather="share"></i></button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <figure class="card__img">
+                                <img src="./assets/img-site/ants.jpg" alt="site facebook">
+                                <div class="card__img__tags">
+                                    <span class="card__tag">Moyen</span>
+                                    <span class="card__tag card__tag--counter"><i data-feather="circle" class="card__tag--ico"></i>784</span>
+                                </div>
+                            </figure>
+                            <h3 class="card__h3">ANTS</h3>
+                            <p class="card__p">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut non delectus debitis nesciunt quas odio! Accusantium dolorem velit dignissimos ducimus quae officiis necessitatibus nostrum, quibusdam minima reprehenderit vero dolorum possimus nulla pariatur fuga voluptates! Nobis rerum aliquid quos sit consequatur laboriosam possimus sequi, dolor iste!
+                            </p>
+                            <a href="#" class="card__lien">lire la suite</a>
+                            <div class="card__footer">
+                                <a href="#" class="card__lien">consulter le site</a>
+                                <div>
+                                    <button class="ico ico--tomato"><i data-feather="circle"></i></button>        
+                                    <button class="ico"><i data-feather="check"></i></button>        
+                                    <button class="ico ico--share"><i data-feather="share"></i></button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <figure class="card__img">
+                                <img src="./assets/img-site/Craigslist.jpg" alt="site facebook">
+                                <div class="card__img__tags">
+                                    <span class="card__tag">Moyen</span>
+                                    <span class="card__tag card__tag--counter"><i data-feather="circle" class="card__tag--ico"></i>241</span>
+                                </div>
+                            </figure>
+                            <h3 class="card__h3">craiglist</h3>
+                            <p class="card__p">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut non delectus debitis nesciunt quas odio! Accusantium dolorem velit dignissimos ducimus quae officiis necessitatibus nostrum, quibusdam minima reprehenderit vero dolorum possimus nulla pariatur fuga voluptates! Nobis rerum aliquid quos sit consequatur laboriosam possimus sequi, dolor iste!
+                            </p>
+                            <a href="#" class="card__lien">lire la suite</a>
+                            <div class="card__footer">
+                                <a href="#" class="card__lien">consulter le site</a>
+                                <div>
+                                    <button class="ico ico--tomato"><i data-feather="circle"></i></button>        
+                                    <button class="ico"><i data-feather="check"></i></button>        
+                                    <button class="ico ico--share"><i data-feather="share"></i></button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <figure class="card__img">
+                                <img src="./assets/img-site/fnac.jpg" alt="site facebook">
+                                <div class="card__img__tags">
+                                    <span class="card__tag">Moche</span>
+                                    <span class="card__tag card__tag--counter"><i data-feather="circle" class="card__tag--ico"></i>374</span>
+                                </div>
+                            </figure>
+                            <h3 class="card__h3">FNAC</h3>
+                            <p class="card__p">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut non delectus debitis nesciunt quas odio! Accusantium dolorem velit dignissimos ducimus quae officiis necessitatibus nostrum, quibusdam minima reprehenderit vero dolorum possimus nulla pariatur fuga voluptates! Nobis rerum aliquid quos sit consequatur laboriosam possimus sequi, dolor iste!
+                            </p>
+                            <a href="#" class="card__lien">lire la suite</a>
+                            <div class="card__footer">
+                                <a href="#" class="card__lien">consulter le site</a>
+                                <div>
+                                    <button class="ico ico--tomato"><i data-feather="circle"></i></button>        
+                                    <button class="ico"><i data-feather="check"></i></button>        
+                                    <button class="ico ico--share"><i data-feather="share"></i></button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <figure class="card__img">
+                                <img src="./assets/img-site/oclock.jpg" alt="site facebook">
+                                <div class="card__img__tags">
+                                    <span class="card__tag">Super</span>
+                                    <span class="card__tag card__tag--counter"><i data-feather="circle" class="card__tag--ico"></i>3854</span>
+                                </div>
+                            </figure>
+                            <h3 class="card__h3">oclock</h3>
+                            <p class="card__p">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut non delectus debitis nesciunt quas odio! Accusantium dolorem velit dignissimos ducimus quae officiis necessitatibus nostrum, quibusdam minima reprehenderit vero dolorum possimus nulla pariatur fuga voluptates! Nobis rerum aliquid quos sit consequatur laboriosam possimus sequi, dolor iste!
+                            </p>
+                            <a href="#" class="card__lien">lire la suite</a>
+                            <div class="card__footer">
+                                <a href="#" class="card__lien">consulter le site</a>
+                                <div>
+                                    <button class="ico ico--tomato"><i data-feather="circle"></i></button>        
+                                    <button class="ico"><i data-feather="check"></i></button>        
+                                    <button class="ico ico--share"><i data-feather="share"></i></button>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <figure class="card__img">
+                                <img src="./assets/img-site/sncf.jpg" alt="site facebook">
+                                <div class="card__img__tags">
+                                    <span class="card__tag">Moyen</span>
+                                    <span class="card__tag card__tag--counter"><i data-feather="circle" class="card__tag--ico"></i>1024</span>
+                                </div>
+                            </figure>
+                            <h3 class="card__h3">SNCF</h3>
+                            <p class="card__p">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut non delectus debitis nesciunt quas odio! Accusantium dolorem velit dignissimos ducimus quae officiis necessitatibus nostrum, quibusdam minima reprehenderit vero dolorum possimus nulla pariatur fuga voluptates! Nobis rerum aliquid quos sit consequatur laboriosam possimus sequi, dolor iste!
+                            </p>
+                            <a href="#" class="card__lien">lire la suite</a>
+                            <div class="card__footer">
+                                <a href="#" class="card__lien">consulter le site</a>
+                                <div>
+                                    <button class="ico ico--tomato"><i data-feather="circle"></i></button>        
+                                    <button class="ico"><i data-feather="check"></i></button>        
+                                    <button class="ico ico--share"><i data-feather="share"></i></button>
+                                </div>
+                            </div>
+                        </article>                     
+                        
+                    </div>
+
+                    <footer class="segment__actions">
+                        <a href="#" class="btn">Tout voir</a>
+                    </footer>
+                    
+                </section>
+
+
+                <section class="segment segment__denoncer">
+
+                    <h2 class="segment__h2">dénoncer un site inaccessible</h2>
+                    <form action="#" method="post" class="denoncer">
+                        <div class="form__groupe">
+                            <label for="dysf">titre du dysfonctionnement</label>
+                            <input type="text" name="dysf" id="dysf" required>
+                        </div>
+                        <div class="form__groupe">
+                            <label for="description">description</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="form__groupe">
+                            <label for="url-web">adresse de la page web</label>
+                            <input type="url" name="url-web" id="url-web">
+                        </div>
+                        <div class="form__groupe">
+                            <label for="support-type">sur quel type de support</label>
+                            <select name="support-type" id="support-type">
+                            <option value="mobil">Mobil</option>
+                            <option value="tablette">Tablette</option>
+                            <option value="desktop">Desktop</option>
+                            </select>
+                        </div>
+                        <div class="form__groupe">
+                            <label for="importance">degré d'importancet</label>
+                            <select name="importance" id="importance">
+                            <option value="bloquant">Bloquant</option>
+                            <option value="genant">génant</option>
+                            <option value="autre">autre</option>
+                            </select>
+                        </div>
+
+                        <footer class="segment__actions">
+                            <a href="#" class="btn btn__soumission">soumettre le dysfonctionnement à l'équipe de modération</a>
+                        </footer>
+                    </form>
+
+                </section>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="group__link">
+                <a href="#" class="group__link__item">Plan du site</a>
+                <a href="#" class="group__link__item">Mentions légales</a>
+                <a href="#" class="group__link__item">Contact</a>
+            </div>
+        </footer>
+
+
+    <!-- fin contaienr site -->
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+
+@use "../utils/vars";
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // word-wrap:break-word;
+    // white-space: pre-wrap;
+    padding: .5rem 1rem;
+    border: 2px solid vars.$color_blue-dark;
+    color: vars.$color_blue-dark;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: .8rem;
+
+
+    &:hover {
+        color: vars.$color_white ;
+        background-color: vars.$color_blue-dark;
+    }
+
+    &__soumission {
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+
+    // TODO ne fonctionne pas demander yann florian 
+    a::first-letter {
+        text-transform: capitalize;
+    }
+
+}
+
