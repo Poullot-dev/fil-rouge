@@ -2,7 +2,6 @@
   "name": "fil-rouge",
   "version": "1.0.0",
   "description": "Recréation du projet fil rouge, avec ma structure de dossier pour le travail.# fil-rouge",
-  "main": "index.js",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
@@ -17,6 +16,6 @@
   },
   "dependencies": {
     "feather-icons": "^4.29.1",
-    "reset-css": "^5.0.2"
+    "sass": "^1.69.5"
   }
 }
